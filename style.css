@@ -1,0 +1,56 @@
+#div1 {
+    border-radius: 50%;
+    /* background-image: url("Snapchat-871952808.jpg");  */
+    background-repeat: no-repeat;
+    height: 10%;
+}
+
+
+#profilepic {
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+#div2 {
+background-color: red;
+float: right;
+border-color: white;
+border-style: solid;
+border-width: medium;
+height: 20%;
+width: 30%;
+margin-right: 30%
+
+
+ }
+.column {
+    width: 100%;
+    text-align: center;
+}
+.column1{ 
+    /* float: left; */
+     width: 30%;
+    border-style: dotted;
+    border-color: white;
+}
+.column3{ 
+    
+    /* float: right;  */
+    width: 30%;
+    border-style: dotted;
+    border-color: white;
+}
+.column2{
+    
+     /* display: inline-block; width: 33%; */
+     border-style: dotted;
+    border-color: white;
+    }
+.column1, .column2, .column3 {
+background-color: red;
+display: flex;
+width: 100%;
+float: left;
+padding: 15px;
+width: 30%;
+}
